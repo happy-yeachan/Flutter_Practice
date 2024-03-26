@@ -8,7 +8,6 @@ class Player {
 }
 
 void main() {
-  var player = Player(name: "yeachan");
   runApp(const App());
 }
 
