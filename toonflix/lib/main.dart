@@ -1,8 +1,14 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+class Player {
+  String? name;
+  Player({required this.name});
+}
+
 void main() {
-  runApp(App());
+  var player = Player(name: "yeachan");
+  runApp(new App());
 }
 
 class App extends StatelessWidget {
@@ -11,6 +17,8 @@ class App extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
+          backgroundColor: Color.fromRGBO(111, 210, 240, 1),
+          centerTitle: true,
           title: Text('Hello flutter!'),
         ),
         body: Center(
