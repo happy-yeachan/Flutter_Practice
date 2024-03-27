@@ -40,7 +40,7 @@ class App extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.end,
                       children: [
                         const Text(
-                          'Hey, Selena',
+                          'Hey, 예찬',
                           style: TextStyle(
                             color: Colors.white,
                             fontSize: 28,
